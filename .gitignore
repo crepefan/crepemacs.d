@@ -2,3 +2,4 @@ use-package
 custom.el
 elpa
 .lsp-session-v1
+auto-save-list
