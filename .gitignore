@@ -1,5 +1,13 @@
 use-package
+
+# Emacs stuff
 custom.el
 elpa
-.lsp-session-v1
 auto-save-list
+
+# LSP
+.lsp-session-v1
+
+# Dashboard
+bookmarks
+recentf
