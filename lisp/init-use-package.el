@@ -6,5 +6,6 @@
 
 ;; Load use-package
 (add-to-list 'load-path (expand-file-name "use-package" user-emacs-directory))
+(require 'use-package)
 
 (provide 'init-use-package)

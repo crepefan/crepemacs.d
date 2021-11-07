@@ -1,7 +1,5 @@
 ;;; init-evil.el -- Evil related settings
 
-(require 'use-package)
-
 (use-package evil
   :ensure t
   :init

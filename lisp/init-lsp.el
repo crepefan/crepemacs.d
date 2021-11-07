@@ -1,7 +1,5 @@
 ;; init-lsp.el -- LSP and completion related settings
 
-(require 'use-package)
-
 (use-package lsp-mode
   :ensure t
   :defer t
