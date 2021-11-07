@@ -20,7 +20,9 @@
 (require 'init-evil)
 
 (require 'init-ivy)
+
 (require 'init-theme)
+(require 'init-dashboard)
 
 (require 'init-lsp)
 (require 'init-rust)
