@@ -8,13 +8,16 @@ My tiny Emacs config
 2. Clone `jwiegley/use-package` to `~/.emacs.d/use-package`
 3. Run `fira-code-mode-install-fonts`
 
-## Configuration
+## Additional Setup 
 
-The config itself should be modular enough. Here's a list of requirements for each file:
+These modules require additional setup, if you are planning to use them:
 
 - `init-rust.el`: Rust and rust-analyzer
+- `init-theme.el`: Make sure to run `fira-code-mode-install-fonts`
 
-If you want to add other features, you just have to create a file with this template
+## Adding modules
+
+If you want to add modules, you have to create a file with this template
 
 ```lisp
 ;;; init-NAME.el -- DESCRIPTION
