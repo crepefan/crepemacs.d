@@ -1,6 +1,7 @@
-;; Optimization
 (let ((file-name-handler-alist nil))
-  (setq gc-cons-threshold 100000000)
+  ;; Garbage collector
+  (setq gc-cons-threshold most-positive-fixnum)
+  (run-with-idle-timer 5 t (lambda () (garbage-collect)))
   
   ;; Get rid of annoying stuff
   (setq custom-file        (concat user-emacs-directory "custom.el")
