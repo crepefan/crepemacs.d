@@ -29,4 +29,5 @@
   (require 'init-dashboard)
   
   (require 'init-lsp)
-  (require 'init-rust))
+  (require 'init-rust)
+  (require 'init-haskell))

@@ -13,6 +13,7 @@ My tiny Emacs config
 These modules require additional setup, if you are planning to use them:
 
 - `init-rust.el`: Rust and rust-analyzer
+- `init-haskell.el`: Haskell and Haskell Language Server
 - `init-theme.el`: Make sure to run `fira-code-mode-install-fonts`
 
 ## Adding modules
