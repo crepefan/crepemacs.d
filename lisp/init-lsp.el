@@ -5,7 +5,8 @@
   :defer t
   :commands lsp
   :hook (lsp-mode . (lambda ()
-		      (define-key evil-normal-state-local-map " ld" 'flymake-show-diagnostics-buffer)))
+		      (define-key evil-normal-state-local-map " ld" 'flymake-show-diagnostics-buffer)
+		      (add-hook 'before-save-hook #'lsp-format-buffer)))
   :config
   (setq lsp-headerline-breadcrumb-enable nil))
 
