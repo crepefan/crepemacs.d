@@ -6,7 +6,6 @@ My tiny Emacs config
 
 1. Clone the repo to `~/.emacs.d`
 2. Clone `jwiegley/use-package` to `~/.emacs.d/use-package`
-3. Run `fira-code-mode-install-fonts`
 
 ## Additional Setup 
 
