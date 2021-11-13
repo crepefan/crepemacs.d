@@ -7,6 +7,7 @@
   :hook ((rust-mode . lsp)
 	 (rust-mode . (lambda () (define-key evil-normal-state-local-map " rr" 'lsp-rust-analyzer-run))))
   :config
-  (setq lsp-rust-server 'rust-analyzer))
+  (setq lsp-rust-server 'rust-analyzer
+	rust-format-on-save t))
 
 (provide 'init-rust)
