@@ -31,4 +31,5 @@
   
   (require 'init-lsp)
   (require 'init-rust)
-  (require 'init-haskell))
+  (require 'init-haskell)
+  (require 'init-javascript))
