@@ -8,8 +8,18 @@
 (use-package counsel
   :ensure t
   :defer t
-  :commands counsel-find-file
+  :commands counsel-mode)
+
+(use-package projectile
+  :ensure t
+  :defer t
+  :commands projectile-mode)
+
+(use-package counsel-projectile
+  :ensure t
+  :defer t
+  :commands counsel-projectile-find-file
   :init
-  (define-key evil-normal-state-map " f" 'counsel-find-file))
+  (define-key evil-normal-state-map " f" #'counsel-projectile-find-file))
 
 (provide 'init-ivy)
