@@ -4,6 +4,7 @@ use-package
 custom.el
 elpa
 auto-save-list
+eshell
 
 # LSP
 .lsp-session-v1
