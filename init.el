@@ -35,4 +35,5 @@
   (require 'init-rust)
   (require 'init-haskell)
   (require 'init-javascript)
-  (require 'init-c))
+  (require 'init-c)
+  (require 'init-html))
