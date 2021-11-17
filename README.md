@@ -17,6 +17,7 @@ These modules require additional setup, if you are planning to use them:
 - `init-javascript.el`: Node and prettier (Language server is installed when lsp is first ran, make sure to pick ts-ls)
 - `init-c.el`: clang and ccls
 - `init-org.el`: Latex
+- `init-cmake.el`: CMake and cmake-language-server (installed from pip)
 
 ## Adding modules
 

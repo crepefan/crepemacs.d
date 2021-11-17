@@ -36,4 +36,5 @@
   (require 'init-haskell)
   (require 'init-javascript)
   (require 'init-c)
-  (require 'init-html))
+  (require 'init-html)
+  (require 'init-cmake))
