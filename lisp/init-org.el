@@ -5,7 +5,8 @@
   :commands org-mode
   :hook (org-mode . init-org/org-keybinds)
   :config
-  (setq org-preview-latex-image-directory (expand-file-name "ltximg/" user-emacs-directory)))
+  (setq org-preview-latex-image-directory (expand-file-name "ltximg/" user-emacs-directory)
+	org-format-latex-options (plist-put org-format-latex-options :scale 1.3)))
 
 (defun init-org/org-keybinds ()
   ;; Preview all latex
