@@ -15,7 +15,7 @@ These modules require additional setup, if you are planning to use them:
 - `init-haskell.el`: Haskell and Haskell Language Server
 - `init-theme.el`: Make sure to run `fira-code-mode-install-fonts`
 - `init-javascript.el`: Node and prettier (Language server is installed when lsp is first ran, make sure to pick ts-ls)
-- `init-c.el`: clang and ccls
+- `init-c.el`: clang and clangd
 - `init-org.el`: Latex
 - `init-cmake.el`: CMake and cmake-language-server (installed from pip)
 
