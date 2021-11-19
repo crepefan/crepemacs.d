@@ -37,4 +37,5 @@
   (require 'init-javascript)
   (require 'init-c)
   (require 'init-html)
-  (require 'init-cmake))
+  (require 'init-cmake)
+  (require 'init-vue))
